@@ -1,0 +1,14 @@
+
+body {
+  background-color: #60718c
+}
+header > img {
+  width: 150px;
+}
+
+header > span {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: serif;
+}
