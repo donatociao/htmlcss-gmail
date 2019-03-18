@@ -40,12 +40,32 @@ header > span {
   background-color: grey;
 }
 
+.email.unread:hover {
+  background-color: yellow;
+}
+
 .email.read {
   background-color: white;
+}
+
+.email.read:hover {
+  background-color: yellow;
 }
 
 .email > .subject {
   color: black;
   font-weight: bold;
   margin-left: 3px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer .author {
+  font-weight: bold;
+}
+.author:hover {
+  color: #cecece;
+  background-color: white;
 }
